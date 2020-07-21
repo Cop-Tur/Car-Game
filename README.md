@@ -1,3 +1,11 @@
-# Operation instructions 
-WASD control moves left and right, J accelerates, K drifts.
-Only when having getted the gift box can you press J for a short time to speed up
+# 雪地飙车
+## 运行说明
+    项目中有已发布的exe可执行文件。直接双击运行即可查看最终效果
+## 操作说明
+    WASD 控制赛车移动, J 加速, K 漂移.
+    只有在吃到加速道具（橙色道具盒）才可以加速。
+## 项目介绍
+    一款基于Unity开发的3D赛车游戏，发布了webgl和桌面端2个版本。项目采用第三人称视角，即Camera为场景对象，跟随赛车移动。
+    采用碰撞检测实现赛车离开赛道出局和道具拾取，道具拾取后监听加速事件。
+    实现了赛车漂移，即大幅度方向变换。赛车出局或到达终点后记录完成赛道时间转换成分数。
+
